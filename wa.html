@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Lady of Lourdes College | Events</title>
+    <link rel="shortcut icon" type="images" href="images/logo.jpg">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo">  Our Lady of Lourdes College </a>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="galleries.html">GALLERY</a></li>
+                <li><a href="blog.html">EVENTS</a></li>
+
+    </header>
+    <div class="wrapper">
+      <p>OUR LADY OF LOURDES COLLEGE</p>
+      <h1>Frequently Asked Questions</h1>
+
+      <div class="faq">
+        <button class="accordion">
+          What is OUR LADY OF LOURDES COLLEGE?
+          <i class=></i>
+        </button>
+        <div class="pannel">
+          <p>
+            The Our Lady of Lourdes College is a privately owned and managed educational institution. 
+            As originally conceived by Mr. and Mrs. Alfredo Demetillo it continues to be service oriented in fulfilling its mission to serve the growing population of Valenzuela City and the neighboring communities.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          What are the Strand offers of Our Lady Of Lourdes College?
+          <i class=></i>
+        </button>
+        <div class="pannel">
+          <p>
+            - STEM - Science, Technology, Engineering, and Mathematics <br>
+            - ABM - Accountancy, Business and Management <br>
+            - ICT - Information and Communications Technology <br>
+            - HE - Home Economics <br>
+            - HUMMS - Humanities and Social Sciences <br>
+            - GAS - General Academic Strand <br>
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          What are the College Courses that Our Lady Of Lourdes College Offering?
+          <i class=></i>
+        </button>
+        <div class="pannel">
+          
+          <p>
+            CHED RECOGNIZED COURSES <br>
+          - BACHELOR OF ELEMENTARY EDUCATION (BEED) <br>
+          - BACHELOR OF SECONDAY EDUCATION (BSE) <br>
+          - BACHELOR OF SCIENCE IN CRIMINOLOGY (BSCRIM) <br>
+          - BACHELOR OF SCIENCE IN BUSINESS ADMINISTRATION (BSBA) <br>
+          - BACHELOR OF SCIENCEE IN COMPUTER SCIENCE (BSCS) <br>
+          - BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY (BSIT) <br>
+          - BACHELOR OF SCIENCE IN ENTREPRENEURSHIP (BS ENTREP) <br>
+          - BACHELOR OF SCIENCE IN HOTEL AND RESTAURANT MANAGEMENT (BSHRM) <br>
+          - ASSOCIATE IN COMPUTERAL SECRETARIAL (ACS) <br>
+          - MIDWIFERY (TWO-YEAR COURSE) <br>   
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          How do i enroll? 
+          <i class=></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Enrolees or Parents can go to school and bring the needed requirements such as Students report card and PSA record in order to enroll 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var pannel = this.nextElementSibling;
+
+          if (pannel.style.display === "block") {
+            pannel.style.display = "none";
+          } else {
+            pannel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>explore</h3>
+          <a href="wa.html"> <i class="fas fa-arrow-right"></i> Frequently Asked Questions </a>
+          
+          
+      </div>
+
+      <div class="box">
+          <h3>Follow US</h3>
+          <a href="https://www.facebook.com/OLLCValenzuelaOfficial"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="https://www.youtube.com/channel/UC4ir1nX5seJDkLfU86Kj8ow"> <i class="fab fa-youtube"></i> youtube </a>
+          
+      </div>
+
+  </div>
+
+  <div class="credit"> created by <span>Jehrome Martin</span> | for project purposes only! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
